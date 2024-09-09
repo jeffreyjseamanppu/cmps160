@@ -1,7 +1,7 @@
 **CMPS160 - Database** is an API that will communicate with the backend database. This will allow the wineapp main application to be able retrieve data, save and modify existing data within the application
 
 ## Current Version
-1.1.2
+1.1.3
 
 ## Modules
 

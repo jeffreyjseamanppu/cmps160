@@ -43,3 +43,15 @@ CREATE TABLE employees
     FOREIGN KEY (department_number) 
     REFERENCES departments(department_number)
 );
+
+--Add data to employees
+INSERT INTO employees (employee_id, last_name, first_name, department_number, manager_id) VALUES
+(1, 'Smith', 'Cindy', 2, NULL),
+(2, 'Jones', 'Elmer', 4, 1),
+(3, 'Simonian', 'Ralph', 2, 2),
+(4, 'Hernandez', 'Olivia', 1, 9),
+(5, 'Aaronsen', 'Robert', 2, 4),
+(6, 'Watson', 'Denise', 5, 8),
+(7, 'Hardy', 'Thomas', 5, 2),
+(8, 'O''Leary', 'Rhea', 4, 9),
+(9, 'Locario', 'Paulo', 5, 1);
